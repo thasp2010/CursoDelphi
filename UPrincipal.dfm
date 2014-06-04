@@ -1,6 +1,6 @@
-object Form1: TForm1
-  Left = 192
-  Top = 125
+object frmPrincipal: TfrmPrincipal
+  Left = 249
+  Top = 191
   Width = 928
   Height = 480
   Caption = 'frmPrincipal'
@@ -13,4 +13,31 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object btnChamaMetodo: TButton
+    Left = 32
+    Top = 16
+    Width = 105
+    Height = 25
+    Caption = 'Chama procedure'
+    TabOrder = 0
+    OnClick = btnChamaMetodoClick
+  end
+  object btnChamaFuncao: TButton
+    Left = 144
+    Top = 16
+    Width = 105
+    Height = 25
+    Caption = 'Chama procedure'
+    TabOrder = 1
+    OnClick = btnChamaFuncaoClick
+  end
+  object btnCadSimples: TButton
+    Left = 144
+    Top = 48
+    Width = 105
+    Height = 25
+    Caption = 'Cadastro simples'
+    TabOrder = 2
+    OnClick = btnCadSimplesClick
+  end
 end
